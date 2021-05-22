@@ -1,2 +1,2 @@
-# web
- My 3D stuff.
+# my3dstuff.github.io
+'Official' website of my3dstuff.
