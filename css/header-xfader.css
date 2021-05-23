@@ -17,12 +17,12 @@ body {
 .invisible-brand {
     visibility: hidden;
 }
-.mybrand {
+.brand {
     position: absolute;
     z-index: 2;
     padding: 0.5rem 2rem;
 }
-.mybrand > img {
+.brand > img {
     max-width: 100%;
     height: auto;
 }

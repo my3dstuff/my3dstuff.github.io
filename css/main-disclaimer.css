@@ -1,0 +1,75 @@
+/* .main-disclaimer.css */
+.brand {
+    text-align: center;
+}
+.brand img {
+    width: 75%;
+    height: auto;
+}
+.main-disclaimer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--body-bg);
+    width: 100%;
+    justify-content: center;
+    padding-top: 2.5rem;
+    margin: 1rem;
+}
+.disc-container {
+    display: flex;
+    width: 85%;
+    flex-wrap: wrap;
+    background-color: var(--content-col);
+}
+.disc-border {
+    border: var(--border-col) solid 2px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 100%;
+    border-radius: 0.4rem;
+}
+.page-title {
+    text-align: center;
+    font-size: 3.2rem;
+    color: var(--white1);
+}
+.text-disclaimer {
+    padding: 4rem 10rem;
+    text-align: left;
+}
+.text-disclaimer > h2 {
+    font-size: 1.75rem;
+    padding-top: 1rem;
+}
+.text-disclaimer p {
+    color: var(--white2);
+    font-size: 1.25rem;
+    padding: 0.75rem 0 0.75rem 0;
+}
+.text-disclaimer > p > a {
+    color: var(--font-highlight)
+}
+@media only screen and (max-width: 960px) {
+    .text-disclaimer {
+      padding: 2rem;
+    }    
+  }
+@media only screen and (max-width: 540px) {
+    .disc-container {
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .disc-border {
+        border: var(--border-col) solid 2px;
+        padding: 0 0 0 0;
+        margin: 0rem;
+        width: 100%;
+        border-radius: 0.4rem;
+    }
+    .disc-border h1 {
+        margin-top: 2rem;
+    }
+    .main-disclaimer {
+        margin: 1rem 0 1rem 0;
+    }
+}
